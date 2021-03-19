@@ -4,9 +4,20 @@
   height: 100vh;
 }
 
-.video iframe{
-    width: 25%;
-    height: 25%;
-    margin-left: 10%;
-  }
-  
+.lessonEmbed iframe{
+  width: 50vw;
+  height:50vh;
+  display:block;
+  float:left;
+}
+
+section {
+clear:both;
+}
+
+aside {
+  width:30em;
+  display:block;
+  float:left;
+  padding: 0 2em 0 2em;
+}
