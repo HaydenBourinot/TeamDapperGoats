@@ -3,11 +3,6 @@ body {
   margin: 0;
 }
 
-main {
-  padding: 0;
-  margin: 0 10vw 0 10vw;
-} 
-
 #introWrapper {
   padding:0 10vw 0 10vw;
   background:black;
@@ -30,23 +25,19 @@ main {
   height: 33%;
 }
   
-.GetStarted{
-  background-color: blue;
-  align-items: center;
-  justify-content: center;
-  display: flex;
+#getStarted{
+  background-color: #96ecff;
 }
   
-.AboutUs {
-  background-color: yellow;
-  text-align: center;
+#aboutUs {
+  background-color: #e8ff96;
 }
 
-.AboutUs h1{
+#aboutUs h1{
   margin-top: 0;
 }
 
-.AboutUs p{
+#aboutUs p{
   margin-left: 25%;
   margin-right: 25%;
 }
@@ -57,4 +48,10 @@ main {
   width: 100vw;
   float: left;
   height: 100vh;
+}
+
+/* Footer*/
+footer{
+  text-align:center;
+  background-color: #ffc296;
 }
