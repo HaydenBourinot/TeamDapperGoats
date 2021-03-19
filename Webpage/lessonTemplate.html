@@ -4,22 +4,35 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DGschool - Home</title>
-        <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/lessonTemplate.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js"></script>
     </head>
 <body>
-    <header class="navigation">
-        <h1>DGschool</h1>
-
-        <div class="navigation-right">
-            <a href="index.html">Home</a>
-            <a href="lessons.html">Lessons</a>
-            <a href="glossary.html">Glossary</a>
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">DGschool</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+                <ul class="navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="lessons.html">Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="glossary.html">Glossary</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
+        </nav>
     </header>
-    
     <main>
         <section class="lessonEmbed">
             <iframe src="https://www.youtube.com/embed/VBlFHuCzPgY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

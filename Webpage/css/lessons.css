@@ -8,9 +8,11 @@
     text-align: center;
 }
 
+/* This counter was causing issues with bootstrap nav
 ol { counter-reset: item }
 li { display: block }
 li:before { content: counters(item, ".") " "; counter-increment: item }
+*/
 
 body {
     padding: 0;

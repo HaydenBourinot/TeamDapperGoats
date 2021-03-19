@@ -1,57 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DGschool - Lessons</title>
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/lessons.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DGschool - Lessons</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lessons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
 
-    <body>
-
-        <div class="navigation">
-            <h1>DGschool</h1>
-    
-            <div class="navigation-right">
-                <a href="index.html">Home</a>
-                <a href="lessons.html">Lessons</a>
-                <a href="glossary.html">Glossary</a>
-            </div>
-    
-        </div>
-
-        
-        <div class = "lessonSelection">
-            <div class="html">
-                <button id="html"> <a href=""></a> HTML</button>
-            </div>
-
-            <div class="css">
-                <button id="css"> <a href=""></a> CSS</button>
-            </div>  
-        </div>
-
-        <div class="mainContent">
-            
-            <div class="tblcontents">
-                <ol>
-                    <li>HTML Intro
-                        <ol> 
-                            <li><a href="lessonTemplate.html">P Tags</a> </li>
-                            <li><a href="">H Tags</a></li>
-                            <li><a href="">Header/ Footer</a></li>
-                            <li><a href="">HTML Intro Quiz</a></li>
-                        </ol>   
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">DGschool</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+                <ul class="navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
-                </ol>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="lessons.html">Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="glossary.html">Glossary</a>
+                    </li>
+                </ul>
             </div>
-
         </div>
+        </nav>
+    </header>
+    <div class = "lessonSelection">
+        <div class="html">
+            <button id="html"> <a href=""></a> HTML</button>
+        </div>
+
+        <div class="css">
+            <button id="css"> <a href=""></a> CSS</button>
+        </div>  
+    </div>
+
+    <div class="mainContent">
         
-    <footer>
-        <p>Team Dapper Goats © 2021</p>
-    </footer>
+        <div class="tblcontents">
+            <ol>
+                <li>HTML Intro
+                    <ol> 
+                        <li><a href="lessonTemplate.html">P Tags</a> </li>
+                        <li><a href="">H Tags</a></li>
+                        <li><a href="">Header/ Footer</a></li>
+                        <li><a href="">HTML Intro Quiz</a></li>
+                    </ol>   
+                </li>
+            </ol>
+        </div>
+
+    </div>
+    
+<footer>
+    <p>Team Dapper Goats © 2021</p>
+</footer>
 
 </body>
 </html>
