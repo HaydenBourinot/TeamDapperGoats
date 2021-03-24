@@ -42,6 +42,9 @@ body {
   margin-right: 25%;
 }
 
+.marg {
+  padding:0 15vw 0 15vw;
+}
 
 /* Glossary */
 .content{

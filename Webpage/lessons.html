@@ -9,15 +9,17 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
 </head>
-
 <body>
     <header>
+        <!--Navigation-->
         <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
         <div class="container-fluid">
+            <!--Branding-->
             <a class="navbar-brand" href="index.html">DGschool</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!--Navigation Buttons-->
             <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
                 <ul class="navbar-nav nav-pills">
                     <li class="nav-item">
@@ -34,18 +36,17 @@
         </div>
         </nav>
     </header>
-    <div class = "lessonSelection">
+    <section class = "lessonSelection">
+        <!--Select HTML or CSS Lessons-->
+        <!--Will likely need to use an event listener on the buttons to display one section while hiding the other-->
         <div class="html">
             <button id="html"> <a href=""></a> HTML</button>
         </div>
-
         <div class="css">
             <button id="css"> <a href=""></a> CSS</button>
         </div>  
-    </div>
-
-    <div class="mainContent">
-        
+    </section>
+    <section class="mainContent">
         <div class="tblcontents">
             <ol>
                 <li>HTML Intro
@@ -58,13 +59,24 @@
                 </li>
             </ol>
         </div>
-
-    </div>
-    
-<footer>
-    <p>Team Dapper Goats © 2021</p>
-</footer>
-
+    </section>
+    <br>
+    <section class="mainContent">
+        <div class="tblcontents">
+            <ol>
+                <li>CSS Intro
+                    <ol> 
+                        <li><a href="lessonTemplate.html">P Tags</a> </li>
+                        <li><a href="">H Tags</a></li>
+                        <li><a href="">Header/ Footer</a></li>
+                        <li><a href="">HTML Intro Quiz</a></li>
+                    </ol>   
+                </li>
+            </ol>
+        </div>
+    </section>
+    <footer>
+        <p>Team Dapper Goats © 2021</p>
+    </footer>
 </body>
 </html>
-

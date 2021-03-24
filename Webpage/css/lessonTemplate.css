@@ -14,10 +14,3 @@
 section {
 clear:both;
 }
-
-aside {
-  width:30em;
-  display:block;
-  float:left;
-  padding: 0 2em 0 2em;
-}

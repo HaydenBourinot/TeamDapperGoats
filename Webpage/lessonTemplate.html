@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DGschool - Home</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/lessonTemplate.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <script src="js/bootstrap.min.js"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DGschool - Home</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lessonTemplate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
 <body>
     <header>
+        <!--Navigation-->
         <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
         <div class="container-fluid">
+            <!--Branding-->
             <a class="navbar-brand" href="index.html">DGschool</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!--Navigation Buttons-->
             <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
                 <ul class="navbar-nav nav-pills">
                     <li class="nav-item">
@@ -33,33 +36,38 @@
         </div>
         </nav>
     </header>
-    <main>
-        <section class="lessonEmbed">
-            <iframe src="https://www.youtube.com/embed/VBlFHuCzPgY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-
-        <aside class="description">
-            <p>
-                What is HTML?
-                HTML stands for Hyper Text Markup Language
-                HTML is the standard markup language for creating Web pages
-                HTML describes the 
+    <section class="container-fluid" id="introWrapper">
+        <!--Lesson Video-->
+        <div class="embed-responsive embed-responsive-21by9 mx-auto introVideo">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VBlFHuCzPgY" allowfullscreen></iframe>
+        </div>
+    </section>
+    <!--Lesson Info-->
+    <section class="container-fluid">
+        <!--Lesson Title-->
+        <div class="col-12 d-flex justify-content-left row">
+            <h1 class="marg">Lesson x.x: Lesson Name</h1>
+        </div>
+            <!--Lesson Description-->
+        <div class="col-12 d-flex justify-content-left row"></div>
+            <p class="marg">
+                What is HTML?<br>
+                HTML stands for Hyper Text Markup Language<br>
+                HTML is the standard markup language for creating Web pages<br>
+                HTML describes the<br>
             </p>
-        </aside>
-
-        <section class="AboutUs">
-            <h1>What is DGschool?</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Aenean in tortor eros. Quisque finibus libero at velit accumsan, eget tristique sem pretium.
-                 Morbi at risus lacus. Nulla arcu risus, 
-                pretium pulvinar egestas nec, pulvinar nec eros. Curabitur quis facilisis turpis.
-            </p>
-        </section>
-            
-        </main>
-
-
+        </div>            
+    </section>
+    <!--Interactive Code-->
+    <section class="container-fluid">
+        <div class="col-12 d-flex justify-content-left row">
+            <h2 class="marg">Interactive Code</h2>
+        </div>
+        <!--Trinket Embed-->
+        <div>
+            <iframe class="marg" src="https://trinket.io/embed/html/7c8d638fe4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+    </section>
     <footer>
         <p>Team Dapper Goats © 2021</p>
     </footer>
