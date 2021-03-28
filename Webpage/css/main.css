@@ -42,15 +42,22 @@ body {
   margin-right: 25%;
 }
 
+
 .marg {
+  margin:0 15vw 0 15vw;
+}
+
+.padd {
   padding:0 15vw 0 15vw;
 }
 
 /* Glossary */
-.content{
-  width: 100vw;
-  float: left;
-  height: 100vh;
+.tableWrapper {
+  margin: 2em 25vw 2em 25vw;
+}
+
+#glossaryTitle {
+  padding:2em 0 0 0;
 }
 
 /* Footer*/
