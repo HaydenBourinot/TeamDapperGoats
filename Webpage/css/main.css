@@ -4,14 +4,7 @@ body {
 }
 
 #introWrapper {
-  padding:0 10vw 0 10vw;
-  background:black;
-}
-
-#introVideo {
-  width: 80vw;
-  padding:0;
-  margin:0;
+  padding:0 16vw 0 16vw;
   background:black;
 }
 
@@ -64,4 +57,9 @@ body {
 footer{
   text-align:center;
   background-color: #ffc296;
+}
+
+footer p{
+  margin-bottom: 0;
+  padding-bottom: 1em;
 }
