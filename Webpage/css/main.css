@@ -26,10 +26,27 @@ body {
   background-color: #f8f9fa;
 }
 
+/*Spacing Utilities */
+.marg {
+  margin:0 15vw 0 15vw;
+}
+
+.padd {
+  padding:0 15vw 0 15vw;
+}
+
+/*Nav*/
 #activeButton{
   background-color: #e4dcda;
 }
-  
+
+#logo{
+  height:40px;
+  width:auto;
+  padding: 0 0.5em 0 0;
+}
+
+/*About Us*/
 #aboutUs {
   background-color: #f8f9fa;
 }
@@ -44,12 +61,19 @@ body {
 }
 
 
-.marg {
-  margin:0 15vw 0 15vw;
+
+/* Lessons Page*/
+
+#title{
+  padding-top: 0.5em;
 }
 
-.padd {
-  padding:0 15vw 0 15vw;
+#description{
+  padding: 0.5em 0 0.7em 0;
+}
+
+#trinket{
+  padding-bottom: 1em;
 }
 
 /* Glossary */
@@ -61,6 +85,8 @@ body {
   padding:2em 0 0 0;
   background-color: #f8f9fa;
 }
+
+
 
 /* Footer*/
 footer{
