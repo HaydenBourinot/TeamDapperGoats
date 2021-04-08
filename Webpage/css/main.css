@@ -72,3 +72,43 @@ footer p{
   margin-bottom: 0;
   padding-bottom: 1em;
 }
+
+/* Quiz CSS, sidelined for now
+
+#question{
+
+}
+
+.choice-wrapper{
+  display:flex;
+  margin-bottom:0.8rem;
+  width:100%;
+  background:#e4dcda;
+  font-size: 2rem;
+}
+
+.choice-wrapper:hover{
+  cursor:pointer;
+  background:#d6cfcd;
+}
+
+.choice-prefix{
+  padding:1rem 2.5rem;
+  color:black;
+
+}
+
+.questionRight{
+  background:lawngreen;
+}
+
+.questionWrong{
+  background:red;
+}
+
+.choice-string{
+  padding: 1rem;
+  color:black;
+}
+
+*/
