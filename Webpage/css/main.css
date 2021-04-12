@@ -3,11 +3,6 @@ body {
   margin: 0;
 }
 
-#customBody{
-  min-height:100vh;
-  background-color: #f8f9fa;
-}
-
 #introWrapper {
   padding:0 16vw 0 16vw;
   background:black;
@@ -54,7 +49,7 @@ body {
 /*About Us*/
 #aboutUs {
   background-color: #f8f9fa;
-  margin-bottom:2.5em;
+  margin-bottom:6em;
 }
 
 #aboutUs h1{
@@ -87,6 +82,7 @@ body {
 .tableWrapper {
   margin: 2em 25vw 2em 25vw;
 }
+
 
 #pageTitle {
   padding:2em 0 0 0;
