@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+#customBody{
+  min-height:100vh;
+  background-color: #f8f9fa;
+}
+
 #introWrapper {
   padding:0 16vw 0 16vw;
   background:black;
@@ -49,6 +54,7 @@ body {
 /*About Us*/
 #aboutUs {
   background-color: #f8f9fa;
+  margin-bottom:2.5em;
 }
 
 #aboutUs h1{
@@ -74,6 +80,7 @@ body {
 
 #trinket{
   padding-bottom: 1em;
+  margin-bottom:2.5em;
 }
 
 /* Glossary */
@@ -92,11 +99,16 @@ body {
 footer{
   text-align:center;
   background-color: #e4dcda;
+  position: fixed;
+  width:100vw;
+  left:0;
+  bottom:0;
+
 }
 
 footer p{
   margin-bottom: 0;
-  padding-bottom: 1em;
+  padding: 0.5em 0 0.5em 0;
 }
 
 /* Quiz CSS, sidelined for now
