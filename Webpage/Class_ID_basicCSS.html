@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DGschool - Classes, IDs, and Basic CSS</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <!--Navigation-->
+        <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+        <div class="container-fluid">
+            <!--Branding-->
+            <img src="logo.png" id="logo">
+            <a class="navbar-brand" href="index.html">DGschool</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Navigation Buttons-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+                <ul class="navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="lessons.html" id="activeButton">Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="glossary.html">Glossary</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <section class="container-fluid" id="introWrapper">
+        <!--Lesson Video-->
+        <div class="embed-responsive embed-responsive-16by9 mx-auto">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wKcIDChH2eg" allowfullscreen></iframe>
+        </div>
+    </section>
+    <!--Lesson Info-->
+    <section class="container-fluid">
+        <!--Lesson Title-->
+        <div class="col-12 d-flex justify-content-left row">
+            <h1 class="marg" id="title">Lesson: Classes, IDs, and Basic CSS</h1>
+        </div>
+            <!--Lesson Description-->
+        <div class="col-12 d-flex justify-content-left row"></div>
+            <p class="marg" id="description">
+                In this lesson we will learn about how classes and IDs are used,<br>
+                how we can style them using CSS, and some of the basics of CSS.
+            </p>
+        </div>            
+    </section>
+    <!--Interactive Code-->
+    <section class="container-fluid">
+        <div class="col-12 d-flex justify-content-left row">
+            <h2 class="marg">Interactive Code</h2>
+        </div>
+        <!--Trinket Embed-->
+        <div class="marg" id="trinket">
+            <iframe src="https://trinket.io/embed/html/5a91316452" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <!-- Commenting out, problem too complex and needs to be sidelined for now
+    <section class="container-fluid">
+        <div class="justify-content-left marg">
+            <div id="question"><h3 class="d-flex justify-content-center">Question Placeholder</h3></div>
+            <div class="choice-wrapper">
+                <p class="choice-prefix">A</p>
+                <p class="choice-string" data-number="1">Choice 1</p>
+            </div>
+            <div class="choice-wrapper">
+                <p class="choice-prefix">B</p>
+                <p class="choice-string" data-number="2">Choice 2</p>
+            </div>
+            <div class="choice-wrapper">
+                <p class="choice-prefix">C</p>
+                <p class="choice-string" data-number="3">Choice 3</p>
+            </div>
+            <div class="choice-wrapper">
+                <p class="choice-prefix">D</p>
+                <p class="choice-string" data-number="4">Choice 4</p>
+            </div>
+        </div>
+    </section>
+    -->
+    <footer>
+        <p>Team Dapper Goats © 2021</p>
+    </footer>
+</body>
+</html>
+
+
